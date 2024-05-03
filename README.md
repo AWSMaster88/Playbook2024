@@ -8,7 +8,7 @@ DevOps Simplified tasks
 ***
 *2. Enter the following to set the version number for the packages.*
 ***
-sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+sudo sed -i s/\\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 ***
 *3. Then you can use yum to install Maven.*
 ***
